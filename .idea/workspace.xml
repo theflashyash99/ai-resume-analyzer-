@@ -5,39 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7515f2-3de0-47d9-b429-f1dcc9b70fd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JetBrainsMono-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JetBrainsSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/ats-bad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/ats-good.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/ats-warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/cross.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-auth.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-main.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/resume-scan-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/resume-scan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/resume_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/resume_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/resume_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pdf.worker.min.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/technologies.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webstorm-icon-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webstorm-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/welcome.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="32prYZloGuspMRn7jLGQaWatgIo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,6 +43,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/01_JOB/DESKTOP APP/AI-resume analyser/ai-resume-analyzer/src/main.js",
+    "prettierjs.PrettierConfiguration.Package": "D:\\01_JOB\\DESKTOP APP\\AI-resume analyser\\ai-resume-analyzer\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "editing.templates",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "D:\\01_JOB\\DESKTOP APP\\AI-resume analyser\\ai-resume-analyzer\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -94,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758128404827</updated>
-      <workItem from="1758128405626" duration="1708000" />
+      <workItem from="1758128405626" duration="3356000" />
+      <workItem from="1758131817944" duration="506000" />
     </task>
     <servers />
   </component>
@@ -111,5 +87,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/routes/home.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
